@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/calculator.css">
+
+    <script src="js/calculate.js" type="module"></script>
+    <title>Tax Calculator</title>
+</head>
+<body>
+    <!-- <header></header> -->
+    <main>
+        <h1>Tax Calculator</h1>
+
+        <form id="frmCalculate">
+            <fieldset>
+                <div>
+                    <label for="txtAmount">Monetary amount</label>
+                    <input type="number" step="0.01" id="txtAmount" required>
+                </div>
+                <div>
+                    <label for="txtPercentage">Tax percentage</label>
+                    <input type="number" step="0.01" id="txtPercentage" required>
+                </div>
+                <div>
+                    <button type="submit" value="Calculate">Calculate</button>
+                </div>
+            </fieldset>
+        </form>
+
+        <section id="results">
+            <p>Tax amount: <span id="tax">0</span> kr.</p>
+            <p>Final amount: <span id="final">0</span> kr.</p>
+        </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 KEA Development - Jasmin Ersan</p>
+    </footer>
+</body>
+</html>

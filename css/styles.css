@@ -1,0 +1,40 @@
+@import "variables.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 1rem;
+}
+
+body {
+    font-family: var(--fontMain);
+    background-color: var(--colorSecondary);
+    color: var(--colorBgMain);
+}
+header, footer {
+    padding: 0.5rem 1rem;
+    text-align: center;
+    color: var(--colorSecondary);
+}
+a {
+    color: var(--colorMain);
+    text-decoration: none;
+    font-weight: 500;
+}
+h1 {
+    font-family: var(--fontMain);
+    font-weight: 800;
+    background-color: var(--colorBgMain);
+    color: var(--colorSecondary);
+}
+h3 {
+    font-size: 1.5rem;
+}
+footer {
+    background-color: var(--colorBgMain);
+    position: fixed;
+}

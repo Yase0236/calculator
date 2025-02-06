@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --colorSecondary: #fdfdfd;
+    --colorBgMain: rgb(42, 42, 157); 
+    --colorTertiary: rgb(147, 153, 155);
+
+    --fontMain: 'PT sans', sans-serif;
+}
